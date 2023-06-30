@@ -35,6 +35,12 @@ public class Logger{
      * @throws RepeatedLoggerDeclarationException -> Called when a Logger has already been declared
     */
     public Logger() throws RepeatedLoggerDeclarationException {
+        try {
+            if (Logger.fileOutPut.equals("")) {
+                Logger.fileOutPut = null;
+            }
+        }
+        catch (Exception ignored){}
         if(!Logger.declared){
             Logger.declared=true;
         }else{
@@ -51,6 +57,12 @@ public class Logger{
      * @throws RepeatedLoggerDeclarationException -> Called when a Logger has already been declared
      */
     public Logger(Levels level,String fileOutput) throws RepeatedLoggerDeclarationException {
+        try {
+            if (Logger.fileOutPut.equals("")) {
+                Logger.fileOutPut = null;
+            }
+        }
+        catch (Exception ignored){}
         if(!Logger.declared) {
             Logger.level = level;
             fileOutPut = fileOutput;
@@ -67,6 +79,12 @@ public class Logger{
      * @throws LoggerNotDeclaredException -> Called when no Logger has been declared
      */
     public static Logger getDeclaredLogger() throws LoggerNotDeclaredException{
+        try {
+            if (Logger.fileOutPut.equals("")) {
+                Logger.fileOutPut = null;
+            }
+        }
+        catch (Exception ignored){}
         if(!Logger.declared){
            throw new LoggerNotDeclaredException("No logger has been declared. You need to declare one first");
         }else {
