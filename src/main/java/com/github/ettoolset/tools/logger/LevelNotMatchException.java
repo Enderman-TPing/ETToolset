@@ -1,4 +1,4 @@
-package com.et.toolset.tools.logger;
+package com.github.ettoolset.tools.logger;
 
 public class LevelNotMatchException extends Exception{
     public LevelNotMatchException(){}

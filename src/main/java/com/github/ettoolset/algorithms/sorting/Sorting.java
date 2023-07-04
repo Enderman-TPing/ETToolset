@@ -1,4 +1,4 @@
-package com.et.toolset.algorithms.sorting;
+package com.github.ettoolset.algorithms.sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;

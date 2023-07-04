@@ -1,6 +1,6 @@
-package com.et.toolset.algorithms.tree.trees;
+package com.github.ettoolset.algorithms.tree.trees;
 
-import com.et.toolset.algorithms.tree.Node;
+import com.github.ettoolset.algorithms.tree.Node;
 
 import java.util.ArrayList;
 import java.util.List;

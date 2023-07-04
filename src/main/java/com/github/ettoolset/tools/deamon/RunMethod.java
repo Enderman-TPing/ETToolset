@@ -1,4 +1,4 @@
-package com.et.toolset.tools.deamon;
+package com.github.ettoolset.tools.deamon;
 
 /**
  * RunMethod declares the method that you may use in a deamon process <br/>

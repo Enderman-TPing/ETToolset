@@ -1,6 +1,6 @@
-package com.et.toolset.tools.deamon;
+package com.github.ettoolset.tools.deamon;
 
-import com.et.toolset.tools.logger.Logger;
+import com.github.ettoolset.tools.logger.Logger;
 
 import java.lang.management.ManagementFactory;
 
