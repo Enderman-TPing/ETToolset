@@ -1,4 +1,4 @@
-package com.github.ettoolset.algorithms.tree;
+package io.github.ettoolset.algorithms.tree;
 
 
 import java.util.ArrayList;

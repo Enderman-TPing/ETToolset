@@ -1,4 +1,4 @@
-package com.github.ettoolset.algorithms.tree.trees;
+package io.github.ettoolset.algorithms.tree.trees;
 
 
 @SuppressWarnings("unused")

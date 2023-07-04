@@ -1,4 +1,4 @@
-package com.github.ettoolset.tools.logger;
+package io.github.ettoolset.tools.logger;
 
 public class RepeatedLoggerDeclarationException extends Exception{
     public RepeatedLoggerDeclarationException(){}

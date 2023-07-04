@@ -1,4 +1,4 @@
-package com.github.ettoolset.tools.logger;
+package io.github.ettoolset.tools.logger;
 
 public class LoggerNotDeclaredException extends Exception {
     public LoggerNotDeclaredException(){}

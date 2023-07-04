@@ -1,4 +1,4 @@
-package com.github.ettoolset.tools.deamon;
+package io.github.ettoolset.tools.deamon;
 
 /**
  * A class to start a deamon thread for main

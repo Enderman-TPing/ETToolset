@@ -1,4 +1,4 @@
-package com.github.ettoolset.tools.SimpleTCP;
+package io.github.ettoolset.tools.SimpleTCP;
 
 import java.io.*;
 import java.net.Socket;
