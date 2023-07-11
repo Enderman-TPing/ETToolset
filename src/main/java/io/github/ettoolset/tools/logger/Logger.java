@@ -1,10 +1,7 @@
 package io.github.ettoolset.tools.logger;
 
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 /**
@@ -142,8 +139,8 @@ public class Logger{
                 }
                 str=String.format(format,"INFO",fmt.format(date),s);
                 try {
-                    BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                    bw.append(str);
+                    FileOutputStream bw=new FileOutputStream(file,true);
+                    bw.write(str.getBytes());
                     bw.flush();
                     bw.close();
                 } catch (IOException e) {
@@ -185,8 +182,8 @@ public class Logger{
                 }
                 str=String.format(format,"ERROR",fmt.format(date),s);
                 try {
-                    BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                    bw.append(str);
+                    FileOutputStream bw=new FileOutputStream(file,true);
+                    bw.write(str.getBytes());
                     bw.flush();
                     bw.close();
                 } catch (IOException e) {
@@ -226,8 +223,8 @@ public class Logger{
                 }
                 str=String.format(format,"FATAL",fmt.format(date),s);
                 try {
-                    BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                    bw.append(str);
+                    FileOutputStream bw=new FileOutputStream(file,true);
+                    bw.write(str.getBytes());
                     bw.flush();
                     bw.close();
                 } catch (IOException e) {
@@ -269,8 +266,8 @@ public class Logger{
                     }
                     str=String.format(format,"DEBUG",fmt.format(date),s);
                     try {
-                        BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                        bw.append(str);
+                        FileOutputStream bw=new FileOutputStream(file,true);
+                        bw.write(str.getBytes());
                         bw.flush();
                         bw.close();
                     } catch (IOException e) {
@@ -315,8 +312,8 @@ public class Logger{
                     }
                     str=String.format(format,"SEVERE",fmt.format(date),s);
                     try {
-                        BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                        bw.append(str);
+                        FileOutputStream bw=new FileOutputStream(file,true);
+                        bw.write(str.getBytes());
                         bw.flush();
                         bw.close();
                     } catch (IOException e) {
@@ -361,8 +358,8 @@ public class Logger{
                     }
                     str=String.format(format,"FINE",fmt.format(date),s);
                     try {
-                        BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                        bw.append(str);
+                        FileOutputStream bw=new FileOutputStream(file,true);
+                        bw.write(str.getBytes());
                         bw.flush();
                         bw.close();
                     } catch (IOException e) {
@@ -394,8 +391,8 @@ public class Logger{
             }
             str=String.format(format,"INFO",fmt.format(date),"");
             try {
-                BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                bw.append(str);
+                FileOutputStream bw=new FileOutputStream(file,true);
+                bw.write(str.getBytes());
                 bw.flush();
                 bw.close();
             } catch (IOException e) {
@@ -424,8 +421,8 @@ public class Logger{
             }
             str=String.format(format,"ERROR",fmt.format(date),"");
             try {
-                BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                bw.append(str);
+                FileOutputStream bw=new FileOutputStream(file,true);
+                bw.write(str.getBytes());
                 bw.flush();
                 bw.close();
             } catch (IOException e) {
@@ -454,8 +451,8 @@ public class Logger{
             }
             str=String.format(format,"FATAL",fmt.format(date),"");
             try {
-                BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                bw.append(str);
+                FileOutputStream bw=new FileOutputStream(file,true);
+                bw.write(str.getBytes());
                 bw.flush();
                 bw.close();
             } catch (IOException e) {
@@ -486,8 +483,8 @@ public class Logger{
                 }
                 str=String.format(format,"FINE",fmt.format(date),"");
                 try {
-                    BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                    bw.append(str);
+                    FileOutputStream bw=new FileOutputStream(file,true);
+                    bw.write(str.getBytes());
                     bw.flush();
                     bw.close();
                 } catch (IOException e) {
@@ -521,8 +518,8 @@ public class Logger{
                 }
                 str=String.format(format,"SEVERE",fmt.format(date),"");
                 try {
-                    BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                    bw.append(str);
+                    FileOutputStream bw=new FileOutputStream(file,true);
+                    bw.write(str.getBytes());
                     bw.flush();
                     bw.close();
                 } catch (IOException e) {
@@ -556,8 +553,8 @@ public class Logger{
                 }
                 str=String.format(format,"DEBUG",fmt.format(date),"");
                 try {
-                    BufferedWriter bw=new BufferedWriter(new FileWriter(file));
-                    bw.append(str);
+                    FileOutputStream bw=new FileOutputStream(file,true);
+                    bw.write(str.getBytes());
                     bw.flush();
                     bw.close();
                 } catch (IOException e) {

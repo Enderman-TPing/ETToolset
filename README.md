@@ -1,9 +1,9 @@
 # ETToolset
  A Simple Lib to Shorten and Optimize Your Coding Expression  
 ## Gradle:
-```
+```Groovy
 dependencies {
-    implementation 'com.et.toolset:ETToolset:(not yet released)'
+    implementation 'io.github.enderman-tping:ETToolset:1.0.0-pre2'
 }
 ```
 
@@ -11,9 +11,9 @@ dependencies {
 ```XML
 <dependencies>
     <dependency>
-        <groupId>com.et.toolset</groupId>
+        <groupId>io.github.enderman-tping</groupId>
         <artifactId>ETToolset</artifactId>
-        <version>(not yet released)</version>
+        <version>1.0.0-pre2</version>
     </dependency>
 </dependencies>
 ```
