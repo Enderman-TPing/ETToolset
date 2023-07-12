@@ -113,9 +113,9 @@ public class Logger{
      * The [INFO] log output <br/>
      * @author Enderman-Teleporting
      * @param content (String) -> Log content
-     * @param f (String...) -> Log format
+     * @param f (Object...) -> Log format
      */
-    public void info(String content, String...f){
+    public void info(String content, Object...f){
         String str;
         String[] contents;
         if (content.contains("\n")){
@@ -156,9 +156,9 @@ public class Logger{
      * The [ERROR] log output <br/>
      * @author Enderman-Teleporting
      * @param content (String) -> Log content
-     * @param f (String...) -> Log format
+     * @param f (Object...) -> Log format
      */
-    public void error(String content,String ... f){
+    public void error(String content,Object ... f){
         String str;
         String[] contents;
         if (content.contains("\n")){
@@ -197,9 +197,9 @@ public class Logger{
      * The [FATAL] log output <br/>
      * @author Enderman-Teleporting
      * @param content (String) -> Log content
-     * @param f (String...) -> Log format
+     * @param f (Object...) -> Log format
      */
-    public void fatal(String content,String ... f){
+    public void fatal(String content,Object ... f){
         String str;
         String[] contents;
         if (content.contains("\n")){
@@ -238,10 +238,10 @@ public class Logger{
      * The [DEBUG] log output <br/>
      * @author Enderman-Teleporting
      * @param content (String) -> Log content
-     * @param f (String...) -> Log format
+     * @param f (Object...) -> Log format
      * @throws LevelNotMatchException -> Called when your level is not Levels.DEBUG
      */
-    public void debug(String content, String ...f) throws LevelNotMatchException {
+    public void debug(String content, Object ...f) throws LevelNotMatchException {
         if(Logger.level.equals(Levels.DEBUG)){
             String str;
             String[] contents;
@@ -284,10 +284,10 @@ public class Logger{
      * The [SEVERE] log output <br/>
      * @author Enderman-Teleporting
      * @param content (String) -> Log content
-     * @param f (String...) -> Log format
+     * @param f (Object...) -> Log format
      * @throws LevelNotMatchException -> Called when your level is not Levels.DEBUG or Levels.SEVERE
      */
-    public void severe(String content,String...f) throws LevelNotMatchException {
+    public void severe(String content,Object...f) throws LevelNotMatchException {
         if(Logger.level.equals(Levels.DEBUG)||Logger.level.equals(Levels.SEVERE)){
             String str;
             String[] contents;
@@ -330,10 +330,10 @@ public class Logger{
      * The [FINE] log output <br/>
      * @author Enderman-Teleporting
      * @param content (String) -> Log content
-     * @param f (String...) -> Log format
+     * @param f (Object...) -> Log format
      * @throws LevelNotMatchException -> Called when your level is not Levels.DEBUG or Levels.SEVERE
      */
-    public void fine(String content,String...f) throws LevelNotMatchException {
+    public void fine(String content,Object...f) throws LevelNotMatchException {
         String str;
         if (Logger.level.equals(Levels.SEVERE)||Logger.level.equals(Levels.DEBUG)){
             String[] contents;

@@ -22,7 +22,7 @@ For the full doc, see [GitHub Wiki](https://github.com/Enderman-TPing/ETToolset/
 ### Gradle:
 ```Groovy
 dependencies {
-    implementation 'io.github.enderman-tping:ETToolset:1.0.0-pre2'
+    implementation 'io.github.enderman-tping:ETToolset:1.0.0-pre3'
 }
 ```
 
@@ -32,7 +32,7 @@ dependencies {
     <dependency>
         <groupId>io.github.enderman-tping</groupId>
         <artifactId>ETToolset</artifactId>
-        <version>1.0.0-pre2</version>
+        <version>1.0.0-pre3</version>
     </dependency>
 </dependencies>
 ```
