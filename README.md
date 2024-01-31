@@ -14,7 +14,7 @@
 
 **<font size=3>Special thanks to the IDE support of Jetbrains for open-source programmers</font>**<br/><br/>
 Hello there<br/>
-Welcome to use ETToolset<br/>
+Welcome!<br/>
 For the full doc, see [GitHub Wiki](https://github.com/Enderman-TPing/ETToolset/wiki)<br/><br/>
 ## Introduction
  A Simple Lib to Shorten and Optimize Your Coding Expression  
@@ -46,7 +46,6 @@ The entire package contains:
     * tools
         * deamon
         * logger
-        * SimpleTCP
       
         
 Although the current lib has only a few functions, it will be gradually enriched.
