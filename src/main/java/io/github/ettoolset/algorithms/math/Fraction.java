@@ -37,4 +37,6 @@ public class Fraction {
     public String toString(){
         return this.numerator+"/"+this.dominator;
     }
+
+//    public Fraction add(){}
 }
