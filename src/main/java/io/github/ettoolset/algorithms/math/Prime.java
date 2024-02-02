@@ -9,4 +9,14 @@ public class Prime {
         }
         return true;
     }
+
+    public static int greatestCommonDivisorOf(int a,int b) {
+        int m=a,n=b;
+        while(n!=0){
+            int temp=m%n;
+            m=n;
+            n=temp;
+        }
+        return m;
+    }
 }
