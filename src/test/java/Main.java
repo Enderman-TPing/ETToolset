@@ -1,7 +1,6 @@
-import static io.github.ettoolset.algorithms.math.Prime.greatestCommonDivisorOf;
-
+import static io.github.ettoolset.algorithms.math.Prime.leastCommonMultipleOf;
 public class Main {
     public static void main(String[] args) {
-        System.out.println(greatestCommonDivisorOf(28,126));
+        System.out.println(leastCommonMultipleOf(28,126));
     }
 }

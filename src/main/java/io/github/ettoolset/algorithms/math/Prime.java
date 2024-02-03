@@ -19,4 +19,8 @@ public class Prime {
         }
         return m;
     }
+
+    public static int leastCommonMultipleOf(int a,int b){
+        return a*b/greatestCommonDivisorOf(a,b);
+    }
 }
