@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b75a009-aeac-4972-b224-7630364e810c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ettoolset/algorithms/math/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ettoolset/algorithms/math/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ettoolset/algorithms/math/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ettoolset/algorithms/math/Fraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,6 +158,10 @@
       <workItem from="1706848637258" duration="835000" />
       <workItem from="1706850842177" duration="12000" />
       <workItem from="1706928643935" duration="164000" />
+      <workItem from="1706937792169" duration="13000" />
+      <workItem from="1706938844745" duration="48000" />
+      <workItem from="1706955800340" duration="17000" />
+      <workItem from="1707014998603" duration="209000" />
     </task>
     <servers />
   </component>

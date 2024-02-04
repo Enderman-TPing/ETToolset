@@ -38,5 +38,7 @@ public class Fraction {
         return this.numerator+"/"+this.dominator;
     }
 
-//    public Fraction add(){}
+    public Fraction add(int a){
+        return new Fraction(this.dominator,this.numerator+a*this.dominator);
+    }
 }
