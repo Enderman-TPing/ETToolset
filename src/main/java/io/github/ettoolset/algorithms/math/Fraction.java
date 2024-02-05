@@ -8,6 +8,13 @@ public class Fraction {
     public Fraction(int dominator,int numerator){
         this.dominator=dominator;
         this.numerator=numerator;
+        if(dominator<0){
+            this.dominator*=-1;
+            this.numerator*=-1;
+        }
+        int a=Prime.greatestCommonDivisorOf(Math.abs(dominator),Math.abs(numerator));
+        this.numerator/=a;
+        this.dominator/=a;
     }
     public int getNumerator(){
         return numerator;
@@ -35,7 +42,11 @@ public class Fraction {
 
     @Override
     public String toString(){
-        return this.numerator+"/"+this.dominator;
+        if(this.dominator!=1) {
+            return this.numerator + "/" + this.dominator;
+        }else{
+            return String.valueOf(this.numerator);
+        }
     }
 
     public Fraction add(int a){
