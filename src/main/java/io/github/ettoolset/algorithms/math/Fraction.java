@@ -40,6 +40,12 @@ public class Fraction {
         }
     }
 
+    public double toDouble(){
+        return (double)this.numerator/(double)this.dominator;
+    }
+    public float toFloat(){
+        return (float) this.numerator/(float) this.dominator;
+    }
     @Override
     public String toString(){
         if(this.dominator!=1) {
@@ -51,5 +57,17 @@ public class Fraction {
 
     public Fraction add(int a){
         return new Fraction(this.dominator,this.numerator+a*this.dominator);
+    }
+
+    public Fraction add(Fraction a){
+        return new Fraction(a.getDominator()*this.dominator,this.numerator*a.getDominator()+this.dominator*a.getNumerator());
+    }
+
+    public Fraction minus(int a){
+        return this.add(-1*a);
+    }
+
+    public Fraction minus(Fraction a){
+        return this.add(new Fraction(a.getDominator()*(-1),a.getNumerator()));
     }
 }
