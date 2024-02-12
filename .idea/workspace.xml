@@ -7,7 +7,6 @@
     <list default="true" id="0b75a009-aeac-4972-b224-7630364e810c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ettoolset/algorithms/math/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ettoolset/algorithms/math/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +164,8 @@
       <workItem from="1707117690029" duration="438000" />
       <workItem from="1707208381302" duration="19000" />
       <workItem from="1707395977292" duration="579000" />
+      <workItem from="1707444860896" duration="1000" />
+      <workItem from="1707701000810" duration="436000" />
     </task>
     <servers />
   </component>

@@ -4,6 +4,13 @@ public class Fraction {
     private int numerator;
     private int dominator;
 
+    public static Fraction reciprocalOf(Fraction a){
+        return new Fraction(a.getNumerator(), a.dominator);
+    }
+    public static Fraction reciprocalOf(int a){
+        return new Fraction(a,1);
+    }
+
     public Fraction(){}
     public Fraction(int dominator,int numerator){
         this.dominator=dominator;
@@ -70,4 +77,21 @@ public class Fraction {
     public Fraction minus(Fraction a){
         return this.add(new Fraction(a.getDominator()*(-1),a.getNumerator()));
     }
+
+    public Fraction multiply(int a){
+        return new Fraction(this.dominator,this.numerator*a);
+    }
+
+    public Fraction multiply(Fraction a){
+        return new Fraction(this.dominator*a.getDominator(),this.numerator*a.getNumerator());
+    }
+
+    public Fraction divide(int a){
+        return this.multiply(reciprocalOf(a));
+    }
+
+    public Fraction divide(Fraction a){
+        return this.multiply(reciprocalOf(a));
+    }
+
 }
